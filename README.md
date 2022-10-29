@@ -30,6 +30,7 @@ Run:
 cat /home/nguyen/.ssh/id_rsa.pub
 ```
 to show SSH key. Copy this key and add to my repo
+
 ![New SSH Key](New%20SSH%20Key.png)
 
 Run: 
@@ -37,13 +38,15 @@ Run:
 git@github.com:quocduongnguyen/Building-a-CI-CD-Pipeline.git
 ```
 to clone my repo
+
 ![Clone repo](Cloned%20project%20by%20SSH%20key.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-Acc
+Access to Building-a-CI-CD-Pipeline folder:
 ```
-Access to Building-a-CI-CD-Pipeline folder
+cd Building-a-CI-CD-Pipeline/
 ```
+run `make all` to setting environment and run test
 
 * Output of a test run
 
