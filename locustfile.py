@@ -1,11 +1,9 @@
-from locust import Locust, TaskSet, task
+from locust import HttpUser, between, task
 
-class UserTaskSet(TaskSet):
+class WebsiteUser(HttpUser):
+    host = "https://duongnq9-project2-webapp.azurewebsites.net:443"
+    wait_time = between(5, 15)
+
     @task
-    def my_task(self):
-        print("executing my_task")
-
-class User(Locust):
-    task_set = UserTaskSet
-    min_wait = 5000
-    max_wait = 15000
+    def index(self):
+        self.client.get("/")
