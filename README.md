@@ -8,7 +8,7 @@ In this project, I will build a Github repository from scratch and create a scaf
 <TODO: Project Plan
 
 * A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A [link](https://trello.com/b/ZuxaG9er/building-a-ci-cd-pipeline) to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
