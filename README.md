@@ -1,12 +1,9 @@
 [![Python application test with Github Actions](https://github.com/quocduongnguyen/Building-a-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)](https://github.com/quocduongnguyen/Building-a-CI-CD-Pipeline/actions/workflows/main.yml)
 
 # Overview
-
 In this project, I will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. I will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next,  I will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
-<TODO: Project Plan
-
 * A [link](https://trello.com/b/ZuxaG9er/building-a-ci-cd-pipeline) to a Trello board for the project
 * A [link](Project%202%20DevOps%20Worksheet.xlsx) to a spreadsheet that includes the original and final project plan>
 
