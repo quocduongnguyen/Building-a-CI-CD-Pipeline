@@ -19,16 +19,31 @@ In this project, I will build a Github repository from scratch and create a scaf
 Open Bash in Azure
 ![Azure Bash](Azure%20Bash.png)
 
-Create SSH Key by run: "ssh-keygen -t rsa"
+Create SSH Key by run: 
+```
+ssh-keygen -t rsa
+```
 ![Create SSH Key](Create%20SSH%20Key.png)
 
-Run: "cat /home/nguyen/.ssh/id_rsa.pub" to show SSH key. Copy this key and add to my repo
+Run:
+```
+cat /home/nguyen/.ssh/id_rsa.pub
+```
+to show SSH key. Copy this key and add to my repo
 ![New SSH Key](New%20SSH%20Key.png)
 
-Run: "git@github.com:quocduongnguyen/Building-a-CI-CD-Pipeline.git" to clone my repo
+Run: 
+```
+git@github.com:quocduongnguyen/Building-a-CI-CD-Pipeline.git
+```
+to clone my repo
 ![Clone repo](Cloned%20project%20by%20SSH%20key.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+Acc
+```
+Access to Building-a-CI-CD-Pipeline folder
+```
 
 * Output of a test run
 
