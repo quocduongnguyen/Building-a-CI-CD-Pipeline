@@ -8,9 +8,8 @@ In this project, I will build a Github repository from scratch and create a scaf
 * A [link](Project%202%20DevOps%20Worksheet.xlsx) to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram
+* ![Architectural Diagram](Architectural%20Diagram.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
