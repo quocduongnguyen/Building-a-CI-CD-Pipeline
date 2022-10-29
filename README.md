@@ -9,13 +9,14 @@ In this project, I will build a Github repository from scratch and create a scaf
 
 ## Instructions
 * Architectural Diagram
-* ![Architectural Diagram](Architectural%20Diagram.png)
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+![Architectural Diagram](Architectural%20Diagram.png)
 
 * Project running on Azure App Service
+![Azure App](Azure%20App.png)
 
 * Project cloned into Azure Cloud Shell
+Open Bash in Azure
+![Azure Bash](Azure%20Bash.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
