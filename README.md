@@ -49,13 +49,17 @@ cd Building-a-CI-CD-Pipeline/
 run `make all` to setting environment and run test
 
 * Output of a test run
+![Pass test](Passed%20tests.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![Azure Pipelines](Azure%20Pipelines.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+![Pass Azure Pipelines](Pass%20Azure%20Pipelines.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
+![443](443.png)
 
 ```bash
 udacity@Azure:~$ ./make_predict_azure_app.sh
@@ -64,7 +68,10 @@ Port: 443
 ```
 
 * Output of streamed log files from deployed application
-
+```
+az webapp log tail -g duongnq9-project2-devops-rg --name duongnq9-project2-webapp
+```
+![Azure log.png](Azure%20log.png)
 > 
 
 ## Enhancements
