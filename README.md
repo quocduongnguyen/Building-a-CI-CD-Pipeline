@@ -74,12 +74,8 @@ az webapp log tail -g duongnq9-project2-devops-rg --name duongnq9-project2-webap
 ![Azure log.png](Azure%20log.png)
 > 
 
-## Enhancements
-
-<TODO: A short description of how to improve the project in the future>
 
 ## Demo 
-
-<TODO: Add link Screencast on YouTube>
+https://www.youtube.com/watch?v=CVPaiFHmcYA
 
 
