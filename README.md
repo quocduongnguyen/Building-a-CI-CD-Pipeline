@@ -35,7 +35,7 @@ to show SSH key. Copy this key and add to my repo
 
 Run: 
 ```
-git@github.com:quocduongnguyen/Building-a-CI-CD-Pipeline.git
+git clone git@github.com:quocduongnguyen/Building-a-CI-CD-Pipeline.git
 ```
 to clone my repo
 
