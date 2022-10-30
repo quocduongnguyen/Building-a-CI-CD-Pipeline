@@ -71,11 +71,15 @@ Port: 443
 ```
 az webapp log tail -g duongnq9-project2-devops-rg --name duongnq9-project2-webapp
 ```
-![Azure log.png](Azure%20log.png)
-> 
+![Azure log](Azure%20log.png)
 
+* Using locust
+```
+locust --headless --users 10 --spawn-rate 1 -H https://duongnq9-project2-webapp.azurewebsites.net
+```
+![Locust](Locust.png)
+
+> 
 
 ## Demo 
 https://www.youtube.com/watch?v=CVPaiFHmcYA
-
-
